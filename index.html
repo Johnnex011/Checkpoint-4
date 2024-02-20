@@ -1,0 +1,856 @@
+<!doctype html>
+<html lang="en">
+  <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Restaurant Website</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./index.css">
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg bg-white shadow py-3 sticky-top  ">
+        <div class="container">
+          <a class="navbar-brand" href="#"><span>the.</span>SecretOasis</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#heroSlider">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#menu">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#features">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#reservation">Reservation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#blog">Blogs</a>
+              </li> 
+
+            </ul>
+            <a href="#" class="btn btn-order">Order Online</a>
+          </div>
+        </div>
+        </nav>
+        <!-- Hero Slider: this shows a preview of a desert on your website -->
+        <div id="heroSlider" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item g-cover text-center vh-100 active slide-1">
+               <div class="container h-100 d-flex align-items-center justify-content-center">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <h6 class="text-white">WELCOME TO <span>the.</span>SECRETOASIS</h6>
+                        <h1 class="display-1 text-white fw-bold"> Char-grilled and Flavour-grilled</h1>
+                        <a href="#" class="btn btn-order">Reservations</a>
+                    </div>
+                </div>
+               </div>
+              </div>
+              <div class="carousel-item bg-cover text-center vh-100 slide-2">
+              <div class="container h-100 d-flex align-items-center justify-content-center">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <h6 class="text-white">WELCOME TO <span>the.</span>SECRETOASIS</h6>
+                        <h1 class="display-1 text-white fw-bold ">Fresh & Tasty Food</h1>
+                        <a href="#" class="btn btn-order">Reservations</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroSlider" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button     class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+        
+    <!-- About Section -->
+       <section id="about">
+            <div class="container">
+                <div class="row gy-4 align-items-center">
+                    <div class="col-lg-5">
+                        <img src="./img/pexels-gustavo-fring-6050332.jpg" alt="chef">
+                    </div>
+                    <div class="col-lg-5">
+                        <h1>About Us</h1>
+                        <div class="divider my-4"></div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo sapiente vitae, corrupti doloribus harum ullam odio. Pariatur officia eos unde saepe quia veritatis itaque minima error similique in ducimus dolores delectus, deleniti ullam temporibus sed non ea explicabo enim sit doloremque, accusantium, consequuntur nisi fuga. Aut amet dolor quos doloribus?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate at vel, cum nesciunt quibusdam aliquam aut cumque sint dignissimos accusantium. Impedit corrupti eveniet et!</p>
+                        <a href="#" class="btn btn-order">Explore Menu</a>
+    
+                    </div>
+    
+                </div>
+            </div>
+        </section>
+
+          <!-- Menu Section -->
+        <section id="menu" class="bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 intro-text">
+                        <h1>Explore Our Menu</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat minus, voluptas cum libero tenetur facilis deserunt culpa, accusantium nulla totam, ut quis excepturi amet.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="conatiner">
+                <ul class="nav nav-pills mb-5 justify-content-center" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-home" aria-selected="true">All Dishes</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-breakfast-tab" data-bs-toggle="pill" data-bs-target="#pills-breakfast" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Breakfast</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-lunch-tab" data-bs-toggle="pill" data-bs-target="#pills-lunch" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Lunch</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-lunch-tab" data-bs-toggle="pill" data-bs-target="#pills-dinner" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Dinner</button>
+                    </li>  
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <!-- All Dishes -->
+                    <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab" tabindex="0">
+                        <div class="row gy-4">
+                            <div class="col-lg-3 .col-sm-6">
+                                <div class="menu-item bg-white shadow-on-hover">
+                                    <img src="./img/pexels-pixabay-461382.jpg" alt="food">
+                                    <div class="menu-item-content p-4">
+                                        <div>
+                                            <span>Rated (5.4)</span>
+                                            <span class="stars">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i>
+                                            </span>
+                                        </div>
+                                        <h5 class="mt-1 mb-2"><a href="#">Greek Salad</a></h5>
+                                        <p class="small">Crisp Lettuce with feta cheese, tomato,cucumber,olives,anchovies,green pepper,pepperonicini and hard boiled Egg.
+                                        </p> 
+                                        <h5>$2,500,000</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 .col-sm-6">
+                                <div class="menu-item bg-white shadow-on-hover">
+                                    <img src="./img/pexels-engin-akyurt-1487511.jpg" alt="food">
+                                    <div class="menu-item-content p-4">
+                                        <div>
+                                            <span>Rated (5.4)</span>
+                                            <span class="stars">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i>
+                                            </span>
+                                        </div>
+                                        <h5 class="mt-1 mb-2"><a href="#">Greek Salad</a></h5>
+                                        <p class="small">Crisp Lettuce with feta cheese, tomato,cucumber,olives,anchovies,green pepper,pepperonicini and hard boiled Egg.
+                                        </p> 
+                                        <h5>$3,500,000</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 .col-sm-6">
+                                <div class="menu-item bg-white shadow-on-hover">
+                                    <img src="./img/pexels-engin-akyurt-2347311.jpg" alt="food">
+                                    <div class="menu-item-content p-4">
+                                        <div>
+                                            <span>Rated (5.4)</span>
+                                            <span class="stars">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i>
+                                            </span>
+                                        </div>
+                                        <h5 class="mt-1 mb-2"><a href="#">Greek Salad</a></h5>
+                                        <p class="small">Crisp Lettuce with feta cheese, tomato,cucumber,olives,anchovies,green pepper,pepperonicini and hard boiled Egg.
+                                        </p>
+                                        <h5>$1,500,000</h5> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 .col-sm-6">
+                                <div class="menu-item bg-white shadow-on-hover">
+                                    <img src="./img/pexels-narda-yescas-1566837.jpg" alt="food">
+                                    <div class="menu-item-content p-4">
+                                        <div>
+                                            <span>Rated (5.4)</span>
+                                            <span class="stars">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i>
+                                            </span>
+                                        </div>
+                                        <h5 class="mt-1 mb-2"><a href="#">Greek Salad</a></h5>
+                                        <p class="small">Crisp Lettuce with feta cheese, tomato,cucumber,olives,anchovies,green pepper,pepperonicini and hard boiled Egg.
+                                        </p> 
+                                        <h5>$2,500,000</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 .col-sm-6">
+                                <div class="menu-item bg-white shadow-on-hover">
+                                    <img src="./img/breakfast/pexels-ash-376464.jpg" alt="food">
+                                    <div class="menu-item-content p-4">
+                                        <div>
+                                            <span>Rated (5.4)</span>
+                                            <span class="stars">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i>
+                                            </span>
+                                        </div>
+                                        <h5 class="mt-1 mb-2"><a href="#">Greek Salad</a></h5>
+                                        <p class="small">Crisp Lettuce with feta cheese, tomato,cucumber,olives,anchovies,green pepper,pepperonicini and hard boiled Egg.
+                                        </p> 
+                                        <h5>$2,500,000</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 .col-sm-6">
+                                <div class="menu-item bg-white shadow-on-hover">
+                                    <img src="./img/breakfast/pexels-life-of-pix-101533.jpg" alt="food">
+                                    <div class="menu-item-content p-4">
+                                        <div>
+                                            <span>Rated (5.4)</span>
+                                            <span class="stars">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i>
+                                            </span>
+                                        </div>
+                                        <h5 class="mt-1 mb-2"><a href="#">Greek Salad</a></h5>
+                                        <p class="small">Crisp Lettuce with feta cheese, tomato,cucumber,olives,anchovies,green pepper,pepperonicini and hard boiled Egg.
+                                        </p> 
+                                        <h5>$2,500,000</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 .col-sm-6">
+                                <div class="menu-item bg-white shadow-on-hover">
+                                    <img src="./img/breakfast/pexels-pixabay-433145.jpg" alt="food">
+                                    <div class="menu-item-content p-4">
+                                        <div>
+                                            <span>Rated (5.4)</span>
+                                            <span class="stars">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i>
+                                            </span>
+                                        </div>
+                                        <h5 class="mt-1 mb-2"><a href="#">Greek Salad</a></h5>
+                                        <p class="small">Crisp Lettuce with feta cheese, tomato,cucumber,olives,anchovies,green pepper,pepperonicini and hard boiled Egg.
+                                        </p> 
+                                        <h5>$2,500,000</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 .col-sm-6">
+                                <div class="menu-item bg-white shadow-on-hover">
+                                    <img src="./img/breakfast/pexels-sydney-troxell-718739.jpg" alt="food">
+                                    <div class="menu-item-content p-4">
+                                        <div>
+                                            <span>Rated (5.4)</span>
+                                            <span class="stars">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i>
+                                            </span>
+                                        </div>
+                                        <h5 class="mt-1 mb-2"><a href="#">Greek Salad</a></h5>
+                                        <p class="small">Crisp Lettuce with feta cheese, tomato,cucumber,olives,anchovies,green pepper,pepperonicini and hard boiled Egg.
+                                        </p> 
+                                        <h5>$2,500,000</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 .col-sm-6">
+                                <div class="menu-item bg-white shadow-on-hover">
+                                    <img src="./img/pexels-iina-luoto-1211887.jpg" alt="food">
+                                    <div class="menu-item-content p-4">
+                                        <div>
+                                            <span>Rated (5.4)</span>
+                                            <span class="stars">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i>
+                                            </span>
+                                        </div>
+                                        <h5 class="mt-1 mb-2"><a href="#">Greek Salad</a></h5>
+                                        <p class="small">Crisp Lettuce with feta cheese, tomato,cucumber,olives,anchovies,green pepper,pepperonicini and hard boiled Egg.
+                                        </p> 
+                                        <h5>$2,500,000</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 .col-sm-6">
+                                <div class="menu-item bg-white shadow-on-hover">
+                                    <img src="./img/pexels-william-choquette-2641886.jpg" alt="food">
+                                    <div class="menu-item-content p-4">
+                                        <div>
+                                            <span>Rated (5.4)</span>
+                                            <span class="stars">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i>
+                                            </span>
+                                        </div>
+                                        <h5 class="mt-1 mb-2"><a href="#">Greek Salad</a></h5>
+                                        <p class="small">Crisp Lettuce with feta cheese, tomato,cucumber,olives,anchovies,green pepper,pepperonicini and hard boiled Egg.
+                                        </p> 
+                                        <h5>$2,500,000</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 .col-sm-6">
+                                <div class="menu-item bg-white shadow-on-hover">
+                                    <img src="./img/pexels-valeria-boltneva-1251208.jpg" alt="food">
+                                    <div class="menu-item-content p-4">
+                                        <div>
+                                            <span>Rated (5.4)</span>
+                                            <span class="stars">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i>
+                                            </span>
+                                        </div>
+                                        <h5 class="mt-1 mb-2"><a href="#">Greek Salad</a></h5>
+                                        <p class="small">Crisp Lettuce with feta cheese, tomato,cucumber,olives,anchovies,green pepper,pepperonicini and hard boiled Egg.
+                                        </p> 
+                                        <h5>$2,500,000</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 .col-sm-6">
+                                <div class="menu-item bg-white shadow-on-hover">
+                                    <img src="./img/chris-ralston-09HGdZzkP-Q-unsplash.jpg" alt="food">
+                                    <div class="menu-item-content p-4">
+                                        <div>
+                                            <span>Rated (5.4)</span>
+                                            <span class="stars">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i>
+                                            </span>
+                                        </div>
+                                        <h5 class="mt-1 mb-2"><a href="#">Greek Salad</a></h5>
+                                        <p class="small">Crisp Lettuce with feta cheese, tomato,cucumber,olives,anchovies,green pepper,pepperonicini and hard boiled Egg.
+                                        </p> 
+                                        <h5>$2,500,000</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show " id="pills-breakfast" role="tabpanel"   aria-labelledby="pills-breakfast-tab" tabindex="0">
+                     <!-- Breakfast section -->
+                            <div class="row gy-4">
+                                <div class="col-lg-3 .col-sm-6">
+                                    <div class="menu-item bg-white shadow-on-hover">
+                                        <img src="./img/breakfast/pexels-ash-376464.jpg" alt="food">
+                                        <div class="menu-item-content p-4">
+                                            <div>
+                                                <span>Rated (5.4)</span>
+                                                <span class="stars">
+                                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i>
+                                                </span>
+                                            </div>
+                                            <h5 class="mt-1 mb-2"><a href="#">Greek Salad</a></h5>
+                                            <p class="small">Crisp Lettuce with feta cheese, tomato,cucumber,olives,anchovies,green pepper,pepperonicini and hard boiled Egg.
+                                            </p> 
+                                            <h5>$2,500,000</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 .col-sm-6">
+                                    <div class="menu-item bg-white shadow-on-hover">
+                                        <img src="./img/breakfast/pexels-life-of-pix-101533.jpg" alt="food">
+                                        <div class="menu-item-content p-4">
+                                            <div>
+                                                <span>Rated (5.4)</span>
+                                                <span class="stars">
+                                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i>
+                                                </span>
+                                            </div>
+                                            <h5 class="mt-1 mb-2"><a href="#">Greek Salad</a></h5>
+                                            <p class="small">Crisp Lettuce with feta cheese, tomato,cucumber,olives,anchovies,green pepper,pepperonicini and hard boiled Egg.
+                                            </p> 
+                                            <h5>$2,500,000</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 .col-sm-6">
+                                    <div class="menu-item bg-white shadow-on-hover">
+                                        <img src="./img/breakfast/pexels-pixabay-433145.jpg" alt="food">
+                                        <div class="menu-item-content p-4">
+                                            <div>
+                                                <span>Rated (5.4)</span>
+                                                <span class="stars">
+                                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i>
+                                                </span>
+                                            </div>
+                                            <h5 class="mt-1 mb-2"><a href="#">Greek Salad</a></h5>
+                                            <p class="small">Crisp Lettuce with feta cheese, tomato,cucumber,olives,anchovies,green pepper,pepperonicini and hard boiled Egg.
+                                            </p> 
+                                            <h5>$2,500,000</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 .col-sm-6">
+                                    <div class="menu-item bg-white shadow-on-hover">
+                                        <img src="./img/breakfast/pexels-sydney-troxell-718739.jpg" alt="food">
+                                        <div class="menu-item-content p-4">
+                                            <div>
+                                                <span>Rated (5.4)</span>
+                                                <span class="stars">
+                                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i>
+                                                </span>
+                                            </div>
+                                            <h5 class="mt-1 mb-2"><a href="#">Greek Salad</a></h5>
+                                            <p class="small">Crisp Lettuce with feta cheese, tomato,cucumber,olives,anchovies,green pepper,pepperonicini and hard boiled Egg.
+                                            </p> 
+                                            <h5>$2,500,000</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div> 
+                    </div>
+                </div>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show " id="pills-lunch" role="tabpanel"   aria-labelledby="pills-lunch-tab" tabindex="0">
+                     <!-- Lunch section -->
+                            <div class="row gy-4">
+                                <div class="col-lg-3 .col-sm-6">
+                                    <div class="menu-item bg-white shadow-on-hover">
+                                        <img src="./img/pexels-pixabay-461382.jpg" alt="food">
+                                        <div class="menu-item-content p-4">
+                                            <div>
+                                                <span>Rated (5.4)</span>
+                                                <span class="stars">
+                                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i>
+                                                </span>
+                                            </div>
+                                            <h5 class="mt-1 mb-2"><a href="#">Greek Salad</a></h5>
+                                            <p class="small">Crisp Lettuce with feta cheese, tomato,cucumber,olives,anchovies,green pepper,pepperonicini and hard boiled Egg.
+                                            </p> 
+                                            <h5>$2,500,000</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 .col-sm-6">
+                                    <div class="menu-item bg-white shadow-on-hover">
+                                        <img src="./img/pexels-engin-akyurt-1487511.jpg" alt="food">
+                                        <div class="menu-item-content p-4">
+                                            <div>
+                                                <span>Rated (5.4)</span>
+                                                <span class="stars">
+                                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i>
+                                                </span>
+                                            </div>
+                                            <h5 class="mt-1 mb-2"><a href="#">Greek Salad</a></h5>
+                                            <p class="small">Crisp Lettuce with feta cheese, tomato,cucumber,olives,anchovies,green pepper,pepperonicini and hard boiled Egg.
+                                            </p> 
+                                            <h5>$3,500,000</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 .col-sm-6">
+                                    <div class="menu-item bg-white shadow-on-hover">
+                                        <img src="./img/pexels-engin-akyurt-2347311.jpg" alt="food">
+                                        <div class="menu-item-content p-4">
+                                            <div>
+                                                <span>Rated (5.4)</span>
+                                                <span class="stars">
+                                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i>
+                                                </span>
+                                            </div>
+                                            <h5 class="mt-1 mb-2"><a href="#">Greek Salad</a></h5>
+                                            <p class="small">Crisp Lettuce with feta cheese, tomato,cucumber,olives,anchovies,green pepper,pepperonicini and hard boiled Egg.
+                                            </p>
+                                            <h5>$1,500,000</h5> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 .col-sm-6">
+                                    <div class="menu-item bg-white shadow-on-hover">
+                                        <img src="./img/pexels-narda-yescas-1566837.jpg" alt="food">
+                                        <div class="menu-item-content p-4">
+                                            <div>
+                                                <span>Rated (5.4)</span>
+                                                <span class="stars">
+                                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i>
+                                                </span>
+                                            </div>
+                                            <h5 class="mt-1 mb-2"><a href="#">Greek Salad</a></h5>
+                                            <p class="small">Crisp Lettuce with feta cheese, tomato,cucumber,olives,anchovies,green pepper,pepperonicini and hard boiled Egg.
+                                            </p> 
+                                            <h5>$2,500,000</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div> 
+                    </div>
+                </div>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show " id="pills-dinner" role="tabpanel"   aria-labelledby="pills-dinner-tab" tabindex="0">
+                     <!-- Dinner section -->
+                            <div class="row gy-4">
+                                <div class="col-lg-3 .col-sm-6">
+                                    <div class="menu-item bg-white shadow-on-hover">
+                                        <img src="./img/pexels-iina-luoto-1211887.jpg" alt="food">
+                                        <div class="menu-item-content p-4">
+                                            <div>
+                                                <span>Rated (5.4)</span>
+                                                <span class="stars">
+                                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i>
+                                                </span>
+                                            </div>
+                                            <h5 class="mt-1 mb-2"><a href="#">Greek Salad</a></h5>
+                                            <p class="small">Crisp Lettuce with feta cheese, tomato,cucumber,olives,anchovies,green pepper,pepperonicini and hard boiled Egg.
+                                            </p> 
+                                            <h5>$2,500,000</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 .col-sm-6">
+                                    <div class="menu-item bg-white shadow-on-hover">
+                                        <img src="./img/pexels-william-choquette-2641886.jpg" alt="food">
+                                        <div class="menu-item-content p-4">
+                                            <div>
+                                                <span>Rated (5.4)</span>
+                                                <span class="stars">
+                                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i>
+                                                </span>
+                                            </div>
+                                            <h5 class="mt-1 mb-2"><a href="#">Greek Salad</a></h5>
+                                            <p class="small">Crisp Lettuce with feta cheese, tomato,cucumber,olives,anchovies,green pepper,pepperonicini and hard boiled Egg.
+                                            </p> 
+                                            <h5>$2,500,000</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 .col-sm-6">
+                                    <div class="menu-item bg-white shadow-on-hover">
+                                        <img src="./img/pexels-valeria-boltneva-1251208.jpg" alt="food">
+                                        <div class="menu-item-content p-4">
+                                            <div>
+                                                <span>Rated (5.4)</span>
+                                                <span class="stars">
+                                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i>
+                                                </span>
+                                            </div>
+                                            <h5 class="mt-1 mb-2"><a href="#">Greek Salad</a></h5>
+                                            <p class="small">Crisp Lettuce with feta cheese, tomato,cucumber,olives,anchovies,green pepper,pepperonicini and hard boiled Egg.
+                                            </p> 
+                                            <h5>$2,500,000</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 .col-sm-6">
+                                    <div class="menu-item bg-white shadow-on-hover">
+                                        <img src="./img/chris-ralston-09HGdZzkP-Q-unsplash.jpg" alt="food">
+                                        <div class="menu-item-content p-4">
+                                            <div>
+                                                <span>Rated (5.4)</span>
+                                                <span class="stars">
+                                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i>
+                                                </span>
+                                            </div>
+                                            <h5 class="mt-1 mb-2"><a href="#">Greek Salad</a></h5>
+                                            <p class="small">Crisp Lettuce with feta cheese, tomato,cucumber,olives,anchovies,green pepper,pepperonicini and hard boiled Egg.
+                                            </p> 
+                                            <h5>$2,500,000</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </section><br>
+        <!-- Features Section -->
+    <section id="features" class="bg-cover">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-12 intro-text">
+                    <h1 class="text-white">Why to Choose Us</h1>
+                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat minus, voluptas cum libero tenetur facilis deserunt culpa, accusantium nulla totam, ut quis excepturi amet.</p>
+                </div>
+            </div>
+            <div class="row gy-4">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feature py-4 px-4 text-center">
+                        <div class="feature-icon">
+                            <i class="fa-solid fa-wifi"></i>
+                        </div>
+                        <h4 class="text-white mt-4 mb-2">Free Wifi</h4>
+                        <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio quas at minus, harum numquam nesciunt velit sequi voluptates consectetur. Rerum atque commodi optio eaque.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feature py-4 px-4 text-center">
+                        <div class="feature-icon">
+                            <i class="fa-solid fa-truck-fast"></i>
+                        </div>
+                        <h4 class="text-white mt-4 mb-2">Fast Delivery</h4>
+                        <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio quas at minus, harum numquam nesciunt velit sequi voluptates consectetur. Rerum atque commodi optio eaque.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feature py-4 px-4 text-center">
+                        <div class="feature-icon">
+                            <i class="fa-solid fa-users"></i></div>
+                        <h4 class="text-white mt-4 mb-2">Users Friendly</h4>
+                        <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio quas at minus, harum numquam nesciunt velit sequi voluptates consectetur. Rerum atque commodi optio eaque.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feature py-4 px-4 text-center">
+                        <div class="feature-icon">
+                            <i class="fa-solid fa-medal"></i>
+                        </div>
+                        <h4 class="text-white mt-4 mb-2">Highly Rated</h4>
+                        <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio quas at minus, harum numquam nesciunt velit sequi voluptates consectetur. Rerum atque commodi optio eaque.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><br>
+    <!-- Team Secction -->
+    <section id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro-text">
+                    <h1>Our Team Members</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat minus, voluptas cum libero tenetur facilis deserunt culpa, accusantium nulla totam, ut quis excepturi amet.</p>
+                </div>
+            </div>
+            <div class="row gy-4">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="team-member shadow-on-hover border px-4 py-5 text-center">
+                        <img src="./img/Chefs/pexels-miquel-ferran-gomez-figueroa-3814446.jpg" alt="">
+                        <div class="team-member-content">
+                            <h4 class="mb-0 mt-4">John Doe</h4>
+                            <div class="mb-0">
+                                Main Chef
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="team-member shadow-on-hover border px-4 py-5 text-center">
+                        <img src="./img/Chefs/pexels-gustavo-fring-6050308.jpg" alt="">
+                        <div class="team-member-content">
+                            <h4 class="mb-0 mt-4">George Sophia</h4>
+                            <div class="mb-0">
+                                Team Chef
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="team-member shadow-on-hover border px-4 py-5 text-center">
+                        <img src="./img/Chefs/pexels-vitaliy-haiduk-16990994.jpg" alt="">
+                        <div class="team-member-content">
+                            <h4 class="mb-0 mt-4">Gbolahan Bright</h4>
+                            <div class="mb-0">
+                                Team Chef
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="team-member shadow-on-hover border px-4 py-5 text-center">
+                        <img src="./img/Chefs/pexels-tirachard-kumtanom-887827.jpg" alt="">
+                        <div class="team-member-content">
+                            <h4 class="mb-0 mt-4">Kenechukwu Grayham</h4>
+                            <div class="mb-0">
+                                Team Chef
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Clients Review Section -->
+    <section id="reviews" class="bg-cover">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro-text">
+                    <h1 class="text-white">Our Clients Response</h1>
+                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat minus, voluptas cum libero tenetur facilis deserunt culpa, accusantium nulla totam, ut quis excepturi amet.</p>
+                </div>
+            </div>
+            <div id="reviewsSlider" class="carousel carousel-dark slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#reviewsSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="review bg-white p-5 text-center">
+                                    <div class="quote-icon">
+                                     <i class="fa-solid fa-quote-left"></i>
+                                    </div>
+                                    <p class="mb-0">
+                                        This restaurant is situated in the heart of a semi-urban area near a motorsports academy. It is a favorite hangout for motorsports lovers.The decor is a stunning mix of vintage sports cars, luxury, and modernity. Every table provides a clear view of the chef working in the kitchen. Diners without reservation are invited to wait in a beautifully decorated lounge with comfortable armchairs and thematic artwork
+                                        Everything we ate was fresh and delicious. The award-winning chefs use the best quality ingredients to produce dishes that are simply delightful.The menu offers a wide variety of delicious and mouthwatering starters and main courses that will appeal to youngsters and adults alike. I had smoked salmon with horseradish cream, as well as prawns and lime vinaigrette. My wife tried the triple cheese and tarragon-stuffed mushrooms. They were all exquisite. The main course included a fantastic veggie shepherd's pie with sweet potato mash and creamy courgette lasagne. It was all followed by a savory apple pie with a scoop of chocolate ice cream.The restaurant also offers a wonderful drink menu, and they offer one of the best wines in the region. The drinks are pricey but surely worth sampling.
+                                    </p>
+                                    <div class="person mt-4">
+                                        <img src="./img/Chefs/pexels-kushan-perera-9492952.jpg" alt="">
+                                        <h4 class="mb-0 mt-2">President Micheal and Mrs. Sophia Purity</h4>
+                                        <div class="stars">
+                                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i>
+                                        </div>
+                                    </div>
+
+                                </div>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <!-- Reservation -->
+    <section id="reservation">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro-text">
+                    <h1>Book Your Table</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni corporis inventore deleniti, aspernatur ullam ipsa cum id ea corrupti quisquam!</p>
+                </div>
+            </div>
+            <form action="#" class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="row g-3">
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" placeholder="Full Name">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="email" class="form-control" placeholder="E-mail Address">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" placeholder="Date">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" placeholder="Time">
+                        </div>
+                        <div class="form-group col-md-12">
+                           <textarea name="" id="" cols="30" rows="4" class="form-control" placeholder="Message"></textarea>
+                        </div>
+                        <div class="form-group text-center col-md-12">
+                            <a href="#" class="btn btn-order">Send Message</a>
+                         </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- Blog Section -->
+    <section id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro-text">
+                    <h1>Blog Posts</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium aut maiores delectus amet cupiditate ipsam eligendi. Pariatur vero illum atque aliquam blanditiis magni temporibus.
+                    </p>
+                </div>
+            </div>
+            <div class="row gy-4">
+                <div class="col-sm-6">
+                    <div class="blog-post d-flex shadow-on-hover">
+                        <img src="./img/Blog/pexels-alesia-kozik-6544385.jpg" alt="">
+                        <div class="blog-post-content p-4">
+                            <p>posted: 25 Dec, 2018</p>
+                            <h4><a href="#">How to make delicious Food</a></h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, cum voluptatibus! Esse harum ipsa praesentium.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="blog-post d-flex shadow-on-hover">
+                        <img src="./img/Blog/pexels-alesia-kozik-6632567.jpg" alt="">
+                        <div class="blog-post-content p-4">
+                            <p>posted: 25 Dec, 2018</p>
+                            <h4><a href="#">How to make delicious Pancakes</a></h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, cum voluptatibus! Esse harum ipsa praesentium.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="blog-post d-flex shadow-on-hover">
+                        <img src="./img/Blog/pexels-helena-lopes-693268.jpg" alt="">
+                        <div class="blog-post-content p-4">
+                            <p>posted: 25 March, 2020</p>
+                            <h4><a href="#">How to make delicious Pizza-rolls</a></h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, cum voluptatibus! Esse harum ipsa praesentium.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="blog-post d-flex shadow-on-hover">
+                        <img src="./img/Blog/pexels-valeria-boltneva-1169004.jpg" alt="">
+                        <div class="blog-post-content p-4">
+                            <p>posted: 25 Dec, 2023</p>
+                            <h4><a href="#">How to make delicious Smoothie & Parfaits</a></h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, cum voluptatibus! Esse harum ipsa praesentium.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Footer Section -->
+    <footer class="bg-cover">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row gy-5">
+                    <div class="col-lg-4">
+                        <a class="navbar-brand mb-4" href="#"><span>the.</span>SecretOasis</a>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta nihil unde culpa molestias, repellat accusantium?</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="#"><i class="fa-brands fa-google-play"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 ms-auto">
+                        <h6 class="text-white mb-4">CONTACT</h6>
+                        <p>P:08122344321</p>
+                        <p>E:enquiries@the.secretoasis.com</p>
+                        <p class="mb-0">A: No 12 Gomycode Adesanya, lekki, lagos Nigeria</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <h6 class="text-white mb-4">OPENING HOURS</h6>
+                        <p>Monday-Friday : 08:00-22:00</p>
+                        <p>Saturday-Sunday : 08:00-22:00</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-auto">
+                        <p class="mb-0">Copyright all rights reserved</p>
+                    </div>
+                    <div class="col-auto">
+                        <p class="mb-0">Designed By <a href="#">the.SecretOasis</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+</html>
